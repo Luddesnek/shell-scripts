@@ -1,0 +1,4 @@
+#!/bin/sh
+clip=$(xclip -o -v)
+echo "$clip" >>\
+"$HOME/.local/bin/clip.txt"

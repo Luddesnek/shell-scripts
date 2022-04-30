@@ -1,0 +1,4 @@
+#!/bin/sh
+cat "$HOME/.local/bin/clip.txt"\
+| dmenu -l 20\
+| xclip -sel c
