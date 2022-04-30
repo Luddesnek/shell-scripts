@@ -1,4 +1,4 @@
-#+TITLE: Random Begineer shell scripts
+#+TITLE: Random Beginner shell scripts
 
 * Copyfile
 Copies what is currently in the clipboard to a file
