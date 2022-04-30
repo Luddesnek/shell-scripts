@@ -1,0 +1,11 @@
+#+TITLE: Random Begineer shell scripts
+
+* Copyfile
+Copies what is currently in the clipboard to a file
+
+* dclip (requires dmenu; optionally rofi, fzf etc.)
+Opens the Copyfile and lets you pick an option to put in your clipboard
+
+* NoTwitch (requires mpv)
+Plays twitch stream
+(this is just a test scripts to see what could be done in the shell)
