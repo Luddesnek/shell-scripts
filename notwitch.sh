@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-read -p "[Whom'st content do'ya wanna to consom]$ " STREAMER
+read -p "[Whom'st do you want to consom]$ " STREAMER
 MPV=$(mpv "https://www.twitch.tv/$STREAMER")
 MESSAGE=$(echo "$MPV" | awk '/offline/ {print $5,$6,$7}')
 if echo "$MESSAGE"; then 
